@@ -65,7 +65,7 @@ const ReviewCard2 = ({name, rating, id, site, email, phone, street, city, state}
     <Card className={styles.card} elevation={3}>
       <CardContent className={styles.content}>
         <Box mb={1}>
-          <h3 className={styles.heading}>{name} </h3>
+          <h3 className={styles.heading} className="restaurant">{name} </h3>
           <Rating
             name={"rating"}
             value={rating}
@@ -75,14 +75,12 @@ const ReviewCard2 = ({name, rating, id, site, email, phone, street, city, state}
           />
         </Box>
         <Box  className={styles.body}>
-          <h1>Address</h1>
-          <ul>
-            <li>{street + ", " + city + ", " + state}</li>
-          </ul>
+          <h1 className="text">Address</h1>
+          <p>{street + ", " + city + ", " + state}</p>
         </Box>
         <Box className={styles.body}>
-          <h1>Contact Information</h1>
-          <ul>
+          <h1 className="text">Contact Information</h1>
+          <ul className="a">
             <li>{email}</li>
             <li>{phone}</li>
           </ul>
@@ -90,7 +88,7 @@ const ReviewCard2 = ({name, rating, id, site, email, phone, street, city, state}
         <Divider className={styles.divider} light />
         <div className={flexStyles.parent}>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a href={site} target="blank" className="rlink">{site}</a>
+          <a href={site} target="blank" className="rlink">Know more about us!</a>
         </div>
       </CardContent>
     </Card>

@@ -2,23 +2,23 @@ import React from 'react';
 import Cardtest2 from './Cardtest2';
 import Grid from '@material-ui/core/Grid';
 import './Card.css';
-const CardList = ({ robots }) => {
+const CardList = ({ restaurants }) => {
   return (
     <div className="rearrange">
       {
-        robots.map((user, i) => {
+        restaurants.map((user, i) => {
           return (
               <Cardtest2
                 key={i}
-                id={robots[i].id}
-                name={robots[i].name}
-                rating={robots[i].rating}
-                site={robots[i].contact.site}
-                email={robots[i].contact.email}
-                phone={robots[i].contact.phone}
-                street={robots[i].address.street}
-                city={robots[i].address.city}
-                state={robots[i].address.state}
+                id={restaurants[i].id}
+                name={restaurants[i].name}
+                rating={restaurants[i].rating}
+                site={restaurants[i].contact.site}
+                email={restaurants[i].contact.email}
+                phone={restaurants[i].contact.phone}
+                street={restaurants[i].address.street}
+                city={restaurants[i].address.city}
+                state={restaurants[i].address.state}
                 />
           );
         })

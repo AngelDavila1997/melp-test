@@ -5,27 +5,25 @@ import Scroll from '../components/Scroll';
 import Grid from '@material-ui/core/Grid';
 import './App.css';
 
-var _ = require('lodash');
-
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      robots: [],
+      restaurants: [],
     }
   }
 
   componentDidMount() {
     fetch('https://recruiting-datasets.s3.us-east-2.amazonaws.com/data_melp.json')
       .then(response=> response.json())
-      .then(users => {this.setState({ robots: users})});
+      .then(data => {this.setState({ restaurants: data})});
   }
 
 
   render() {
-    const { robots} = this.state;
-    const ainfo = robots;
-    return !robots.length ?
+    const { restaurants} = this.state;
+    const ainfo = restaurants;
+    return !restaurants.length ?
       <h1 className='loading'>Loading</h1> :
       (
         <div>
@@ -34,7 +32,7 @@ class App extends Component {
           </nav>
           <div className='tc'>
             <Scroll>
-                <CardList robots={ainfo} />
+                <CardList restaurants={ainfo} />
             </Scroll>
           </div>
         </div>

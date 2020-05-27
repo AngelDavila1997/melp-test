@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 .cardwidth{
 	transition: all 0.5s;
 }
@@ -21,4 +23,16 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 2px;
+}
+.text{
+	color: black;
+	font-size: 20px;
+}
+.a{
+	list-style-type: circle;
+	text-align: left;
+}
+.restaurant{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
 }
