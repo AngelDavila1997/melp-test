@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/melp-test/static/css/main.8020364f.chunk.css",
+    "main.js": "/melp-test/static/js/main.dd5b3578.chunk.js",
+    "main.js.map": "/melp-test/static/js/main.dd5b3578.chunk.js.map",
+    "runtime-main.js": "/melp-test/static/js/runtime-main.f47c1bbe.js",
+    "runtime-main.js.map": "/melp-test/static/js/runtime-main.f47c1bbe.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/melp-test/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.ac4e6799.chunk.js": "/melp-test/static/js/2.ac4e6799.chunk.js",
+    "static/js/2.ac4e6799.chunk.js.map": "/melp-test/static/js/2.ac4e6799.chunk.js.map",
+    "index.html": "/melp-test/index.html",
+    "precache-manifest.8b74077b7edae825b02c67f1ed6eac5c.js": "/melp-test/precache-manifest.8b74077b7edae825b02c67f1ed6eac5c.js",
+    "service-worker.js": "/melp-test/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/melp-test/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.8020364f.chunk.css.map": "/melp-test/static/css/main.8020364f.chunk.css.map",
+    "static/js/2.ac4e6799.chunk.js.LICENSE.txt": "/melp-test/static/js/2.ac4e6799.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f47c1bbe.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.ac4e6799.chunk.js",
+    "static/css/main.8020364f.chunk.css",
+    "static/js/main.dd5b3578.chunk.js"
+  ]
+}
